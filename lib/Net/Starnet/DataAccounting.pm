@@ -68,7 +68,7 @@ use constant SDA_UPDATE_NO  => 0;
 use constant SDA_UPDATE_TIME => 60;
 
 our @ISA = qw//;
-our ( $VERSION ) = '$Revision: 1.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 1.2 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 my %defaults = (
     server	=> '150.203.223.8',
@@ -502,7 +502,7 @@ Copyright (c) 2001 Iain Truskett. All rights reserved. This program is
 free software; you can redistribute it and/or modify it under the same
 terms as Perl itself.
 
-    $Id$
+    $Id: DataAccounting.pm,v 1.2 2002/02/03 14:29:05 koschei Exp $
 
 =head1 ACKNOWLEDGEMENTS
 

@@ -1,6 +1,6 @@
 use Carp;
 use Data::Dumper;
-use Test::More tests => 12;
+use Test::More tests => 11;
 use strict;
 use warnings;
 
@@ -77,11 +77,11 @@ do {
 };
 
 # Check response:
-TODO: {
-    local $TODO = "flirble?";
-
-    my $response = $sda->login;
-
-    is($response, '1 0 3 Login_Deny: Please check your data quota.', "Response comparison.");
-};
+#TODO: {
+    #    local $TODO = "Can we connect and make sense?";
+#
+#    my $response = $sda->login;
+#
+#    is($response, '1 0 3 Login_Deny: Please check your data quota.', "Response comparison.");
+#};
 
